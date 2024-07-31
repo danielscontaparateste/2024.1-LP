@@ -38,6 +38,8 @@ int main(){
         if (!( (k+1) % qtdCol)) printf("\n");     
     }
 
+    // Exercício: Dado (x, y) pelo usuário, imprima o valor.
+
     return 0;
 
 }
