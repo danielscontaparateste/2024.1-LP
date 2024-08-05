@@ -39,6 +39,14 @@ int main(){
     }
 
     // Exercício: Dado (x, y) pelo usuário, imprima o valor.
+    int x, y;
+    printf("\n *** \n");
+    puts("Entre com (x,y): ");
+    scanf("%d%d",&x,&y);
+
+    int elem = *(p + (qtdCol * x) + y );
+    printf("Elemento: %d\n",elem);
+
 
     return 0;
 
